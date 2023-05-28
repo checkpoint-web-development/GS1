@@ -1,0 +1,23 @@
+.menu-bg {
+  background-color: #0fe2ca;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 1.125rem;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li + li {
+  margin-left: 30px;
+}
+
+.menu li:hover {
+  color: #fff;
+}
