@@ -1,0 +1,13 @@
+.footer-bg {
+  background-color: #0fe2ca;
+}
+
+.footer {
+  display: flex;
+  padding: 25px;
+  justify-content: space-around;
+}
+
+.footer li span{
+  display: block;
+}
