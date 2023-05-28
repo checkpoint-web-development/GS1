@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contato</title>
+  <meta name="description" content="Venha ver nosso projeto GS1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section>
+    <h1>Entre em contato conosco!!!</h1>
+
+    <form id="myForm">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+      </div>
+      <div>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+      </div>
+      <div>
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf">
+      </div>
+      <div>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade">
+      </div>
+      <div>
+        <label for="genero">Gênero:</label>
+        <select id="genero">
+          <option value="">Selecione</option>
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+          <option value="outros">Outros</option>
+        </select>
+      </div>
+      <div>
+        <label for="gostou">Gostou do site?</label>
+        <input type="radio" name="gostou" value="sim"> Sim
+        <input type="radio" name="gostou" value="nao"> Não
+      </div>
+      <div>
+        <label for="atualizacoes">Receber atualizações?</label>
+        <input type="radio" name="atualizacoes" value="sim"> Sim
+        <input type="radio" name="atualizacoes" value="nao"> Não
+      </div>
+      <div>
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario"></textarea>
+      </div>
+      <div>
+        <input type="checkbox" id="termos">
+        <label for="termos">Aceito os termos e condições.</label>
+      </div>
+      <div>
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+
+    <span id="mensagem"></span>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
