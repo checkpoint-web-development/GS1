@@ -1,5 +1,6 @@
 .formulario {
   margin-top: 60px;
+  font-size: 1rem;
 }
 
 .formulario h1{
@@ -10,7 +11,7 @@
 .form {
   margin-top: 60px;
   color: #0fe2ca;
-  max-width: 600px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   font-size: 1.125rem;
@@ -37,6 +38,8 @@
   box-sizing: border-box;
   margin-top: 15px;
   font-size: 1rem;
+  font-family: font1;
+  cursor: pointer;
 }
 
 .form input:focus,
@@ -47,7 +50,7 @@
 }
 
 .form textarea {
-  width: 400px;
+  max-width: 400px;
   height: 100px;
   font-size: 1.125rem;
 }
@@ -80,4 +83,11 @@
 
 .certo {
   color: #33ff33;
+}
+
+.form input:hover,
+.form textarea:hover,
+.form select:hover {
+  border-color: #fff;
+  color: #fff;
 }

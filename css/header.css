@@ -4,6 +4,7 @@
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: space-between;
   padding: 30px;
@@ -12,6 +13,7 @@
 
 .menu {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .menu li + li {
