@@ -1,0 +1,95 @@
+.ajuda {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.ajuda div {
+  margin-top: 60px;
+}
+
+.img-agri {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/Agricultura.jpg);
+  background-size: cover;
+  width:70vw;
+  height:70vh;
+  align-items: center;
+  font-size: 2rem;
+  color:#0b0c0f;
+  border: 2px solid #0b0c0f;
+  border-radius: 10px;
+}
+
+.img-int {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/inteligencia.jpg);
+  background-size: cover;
+  width:70vw;
+  height:70vh;
+  align-items: center;
+  font-size: 2rem;
+  color:#0fe2ca;
+  border: 2px solid #0b0c0f;
+  border-radius: 10px;
+}
+
+.img-cult {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/cultivo.jpg);
+  background-size: cover;
+  width:70vw;
+  height:70vh;
+  align-items: center;
+  font-size: 2rem;
+  color:#0b0c0f;
+  border: 2px solid #0b0c0f;
+  border-radius: 10px;
+}
+
+.img-agri:hover, .img-cult:hover, .img-int:hover {
+  border: 2px solid #0fe2ca;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.button-cont {
+  color: #0fe2ca;
+  border: 2px solid #0fe2ca;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px 5px;
+}
+
+.button-cont:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+@media (max-width: 1200px){
+  .img-agri, .img-cult, .img-int {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 800px){
+  .img-agri, .img-cult, .img-int {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px){
+  .img-agri, .img-cult, .img-int {
+    font-size: 0.75rem;
+  }
+}
+
