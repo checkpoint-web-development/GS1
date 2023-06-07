@@ -1,0 +1,66 @@
+.inteligencia-bg {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/inteligencia.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  font-size: 2rem;
+  color:#0fe2ca;
+  text-align: center;
+}
+
+.inteligencia {
+  color: #0fe2ca;
+  margin-bottom: 60px;
+  margin: 0px auto 60px auto;
+}
+
+.topicos-int h1{
+  margin: 60px 0px 30px 0px;
+  font-size: 2rem;
+}
+
+.topicos-int p {
+  font-size: 1rem;
+}
+
+.topicos-int p + p {
+  margin-top: 30px;
+}
+
+.topicos-int li + li {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+@media (max-width: 1300px){
+  .inteligencia {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 1200px){
+  .inteligencia-bg {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 800px){
+  .inteligencia-bg {
+    font-size: 1rem;
+  }
+
+  .inteligencia {
+    max-width: 300px;
+  }
+
+  .topicos-int h1{
+    font-size: 1.5rem;
+  }
+  
+  .topicos-int p {
+    font-size: 1rem;
+  }
+}
