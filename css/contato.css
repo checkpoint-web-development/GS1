@@ -91,3 +91,15 @@
   border-color: #fff;
   color: #fff;
 }
+
+@media (max-width: 410px){
+  .form input,
+  .form textarea,
+  .form select {
+    max-width: 200px;
+  }
+
+  .form {
+    text-align: center;
+  }
+}
